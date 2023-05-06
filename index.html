@@ -85,7 +85,7 @@
                 <td>
                   {{#if get_fav(index + offset)[tdnum]  == -1}} <span class="glyphicon glyphicon-remove"></span>
                   {{elseif get_fav(index + offset)[tdnum] == 1}} <span class="text-danger glyphicon glyphicon-heart"></span>
-                  {{elseif get_fav(index + offset)[tdnum] == 2}} <span class="text-muted glyphicon glyphicon-heart"></span>
+                  {{elseif get_fav(index + offset)[tdnum] == 2}} <span class="glyphicon glyphicon-heart"></span>
                 {{else}}{{/if}}
                 </td>
               {{/}}
@@ -150,7 +150,7 @@
                     <td>
                       {{#if .  == -1}} <span class="glyphicon glyphicon-remove"></span>
                       {{elseif . == 1}} <span class="text-danger glyphicon glyphicon-heart"></span>
-                      {{elseif . == 2}} <span class="text-muted glyphicon glyphicon-heart"></span>
+                      {{elseif . == 2}} <span class="glyphicon glyphicon-heart"></span>
                     {{else}}{{/if}}
                     </td>
                   {{/}}

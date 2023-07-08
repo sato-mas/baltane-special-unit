@@ -31,7 +31,12 @@
 * https://getbootstrap.jp/docs/5.0/utilities/colors/
     * index.html 内で使用している bootstrap の文字色の説明です。
 
-## GitHub Pages
+## Git - amend commit messages
+
+* [間違ったgit commit（コミットメッセージ）を修正したい](https://qiita.com/ymp-a/items/0ed00353cdd5ca9e133c)
+
+
+## GitHub Pages - Create
 
 * [GitHub Pages サイトを作成する](https://docs.github.com/ja/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 
